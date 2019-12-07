@@ -1,0 +1,8 @@
+.portfolio {
+  display: flex;
+  margin: auto;
+  align-content: center;
+  justify-content: center;
+  background-color: yellow;
+  min-height: 100vh;
+}

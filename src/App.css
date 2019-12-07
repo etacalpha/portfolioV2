@@ -1,18 +1,18 @@
 .App {
-  display: grid;
-  grid-template-columns: 1fr auto;
-  float: right;
+  display: block;
   background-color: red;
   padding: 0;
   margin: 0;
 }
 main {
-  height: 100%;
+  height: 100vh;
+  margin-left: 4.3em;
 }
 
 nav {
-  position: sticky;
+  position: fixed;
   top: 0;
+  left: 0;
   background-color: #0d0d38;
   text-align: center;
   color: orange;

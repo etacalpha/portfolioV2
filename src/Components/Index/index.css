@@ -1,0 +1,8 @@
+.index {
+  display: flex;
+  margin: auto;
+  align-content: center;
+  justify-content: center;
+  background-color: purple;
+  height: 100%;
+}

@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 
+import Index from "./Components/Index/index";
 import Nav from "./Components/Nav/nav";
 import About from "./Components/About/about";
 import Contact from "./Components/Contact/contact";
@@ -17,6 +18,7 @@ class App extends Component {
           <Nav />
         </nav>
         <main>
+          <Index />
           <About />
           <Contact />
         </main>

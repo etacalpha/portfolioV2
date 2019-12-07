@@ -5,14 +5,13 @@
   margin: 0;
 }
 main {
-  height: 100vh;
   margin-left: 4.3em;
+  height: 100%;
 }
 
 nav {
   position: fixed;
   top: 0;
-  left: 0;
   background-color: #0d0d38;
   text-align: center;
   color: orange;

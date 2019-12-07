@@ -4,5 +4,5 @@
   align-content: center;
   justify-content: center;
   background-color: aqua;
-  height: 100%;
+  min-height: 100vh;
 }

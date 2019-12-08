@@ -1,6 +1,5 @@
 main {
-  float: right;
-  width: 100%;
+  width: 100vw;
 }
 
 nav {
@@ -11,5 +10,5 @@ nav {
   color: orange;
   height: 100vh;
   max-width: min-content;
-  z-index: 1000;
+  z-index: 1;
 }

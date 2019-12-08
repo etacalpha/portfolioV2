@@ -1,8 +1,13 @@
 .contact {
   display: flex;
+  flex-direction: column;
   margin: auto auto auto 4.2em;
+  line-height: 2.5em;
   align-content: center;
   justify-content: center;
   background-color: aqua;
   min-height: 100vh;
+}
+.contact a {
+  text-decoration: none;
 }

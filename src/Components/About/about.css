@@ -21,4 +21,7 @@
   .about {
     flex-wrap: wrap;
   }
+  .img {
+    display: none;
+  }
 }

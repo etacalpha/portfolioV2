@@ -2,9 +2,9 @@ import React from "react";
 
 import "./indicators.css";
 
-function indicators() {
+function Indicators() {
   return (
-    <section>
+    <section className="asshat">
       <div className="indicator"></div>
       <div className="indicator"></div>
       <div className="indicator"></div>
@@ -12,4 +12,4 @@ function indicators() {
     </section>
   );
 }
-export default Indcators;
+export default Indicators;

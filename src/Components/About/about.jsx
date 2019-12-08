@@ -7,26 +7,6 @@ function Nav() {
     <article className="about">
       <section className="img">
         <picture>
-          <source
-            media="(max-width: 410px)"
-            srcSet="https://placeholder.pics/svg/220X300"
-          />
-          <source
-            media="(max-width: 514px)"
-            srcSet="https://placeholder.pics/svg/300X300"
-          />
-          <source
-            media="(max-width: 757px)"
-            srcSet="https://placeholder.pics/svg/400X300"
-          />
-          <source
-            media="(max-width: 988px)"
-            srcSet="https://placeholder.pics/svg/600X350"
-          />
-          <source
-            media="(max-width: 1033px)"
-            srcSet="https://placeholder.pics/svg/600X1000"
-          />
           <img
             src="https://via.placeholder.com/700X1000"
             alt="of developer"

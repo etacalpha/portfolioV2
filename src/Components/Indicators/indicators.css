@@ -1,0 +1,19 @@
+.asshat {
+  display: block;
+  position: absolute;
+  right: 1.5em;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+
+.indicator {
+  width: 0.5em;
+  height: 0.5em;
+  border: 2px solid black;
+  border-radius: 50%;
+  background-color: white;
+  margin: 0.5em 0 0.5em 0;
+  z-index: 2;
+}

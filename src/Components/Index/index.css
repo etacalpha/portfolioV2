@@ -1,8 +1,11 @@
 .index {
-  display: flex;
-  margin: auto;
-  align-content: center;
-  justify-content: center;
-  background-color: purple;
   min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  margin: 0 0 0 4.3em;
+}
+main {
+  width: 100vw;
+  height: 100vh;
 }

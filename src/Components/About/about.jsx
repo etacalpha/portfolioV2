@@ -4,7 +4,7 @@ import "./about.css";
 
 function Nav() {
   return (
-    <main className="about">
+    <article className="about">
       <section className="img">
         <picture>
           <source
@@ -33,7 +33,7 @@ function Nav() {
           ></img>
         </picture>
       </section>
-      <article className="info">
+      <section className="info">
         <section>
           <h4>Provide</h4>
           <p>
@@ -88,8 +88,8 @@ function Nav() {
             consectetur. Reprehenderit esse cillum tempor velit ad pariatur.
           </p>
         </section>
-      </article>
-    </main>
+      </section>
+    </article>
   );
 }
 export default Nav;

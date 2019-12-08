@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 
+import FlipPage from "react-flip-page";
+
 import Index from "./Components/Index/index";
 import Nav from "./Components/Nav/nav";
 import Portfolio from "./Components/Portfolio/portfolio";
@@ -9,20 +11,26 @@ import Contact from "./Components/Contact/contact";
 import "./App.css";
 
 class App extends Component {
-  constructor(props) {
-    super(props);
-  }
   render() {
     return (
-      <div className="App">
+      <div className="app">
         <nav>
           <Nav />
         </nav>
         <main>
-          <Index />
-          <About />
-          <Portfolio />
-          <Contact />
+          <FlipPage
+            ref={component => {
+              this.flipPage = component;
+            }}
+            className="FlipPage"
+            loopForever={true}
+            responsive={true}
+          >
+            <Index />
+            <About />
+            <Portfolio />
+            <Contact />
+          </FlipPage>
         </main>
       </div>
     );

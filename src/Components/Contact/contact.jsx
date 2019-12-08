@@ -4,11 +4,11 @@ import "./contact.css";
 
 function Contact() {
   return (
-    <main className="contact">
+    <article className="contact">
       <header>
         <h1>Contact Me!!</h1>
       </header>
-    </main>
+    </article>
   );
 }
 export default Contact;

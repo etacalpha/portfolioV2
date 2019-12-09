@@ -14,6 +14,7 @@ import "./App.css";
 class App extends Component {
   constructor(props) {
     super(props);
+    this.state = { currentPage: 0 };
     this.pageChange = this.pageChange.bind(this);
   }
 
@@ -23,7 +24,7 @@ class App extends Component {
   render() {
     return (
       <div className="app">
-        <Indicators />
+        <Indicators currentPage={this.state.currentPage} />
         <nav>
           <Nav pageChange={this.pageChange} />
         </nav>
@@ -36,6 +37,9 @@ class App extends Component {
             loopForever={true}
             responsive={true}
             firstComponent={Index}
+            onPageChange={pageIndex => {
+              this.setState({ currentPage: pageIndex });
+            }}
           >
             <Index />
             <About />

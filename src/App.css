@@ -10,5 +10,5 @@ nav {
   color: orange;
   height: 100vh;
   max-width: min-content;
-  z-index: 1;
+  z-index: 3;
 }

@@ -7,37 +7,33 @@ function Contact() {
     <article className="contact">
       <header>
         <h1>Contact Me!!</h1>
+        <p>
+          Thank you for taking the time to review my website. Please feel freel
+          to email or call. Due to the number being listed here I will not
+          anserwe but will return your call as soon as possible. Have a great
+          day.
+        </p>
       </header>
-      <table>
-        <tbody>
-          <tr>
-            <td>City</td>
-            <td>Amherst, OH</td>
-          </tr>
-          <tr>
-            <td>Email</td>
-            <td>etacalpha@gmail.com</td>
-          </tr>
-          <tr>
-            <td>Phone</td>
-            <td>216-302-7843</td>
-          </tr>
-          <tr>
-            <td>LinkedIn</td>
-            <td>
-              <a href="www.linkedin.com/in/steven-beard">steven beard</a>
-            </td>
-          </tr>
-          <tr>
-            <td>Github</td>
-            <td>
-              <a href="https://github.com/etacalpha">
-                https://github.com/etacalpha
-              </a>
-            </td>
-          </tr>
-        </tbody>
-      </table>
+      <section>
+        <h4>City:</h4>
+        <p>Amherst, OH</p>
+      </section>
+      <section>
+        <h4>Email:</h4>
+        <p>etacalpha@gmail.com</p>
+      </section>
+      <section>
+        <h4>Phone:</h4>
+        <p>216-302-7843</p>
+      </section>
+      <section>
+        <h4>LinkedIn:</h4>
+        <a href="www.linkedin.com/in/steven-beard">icon</a>
+      </section>
+      <section>
+        <h4>GitHub:</h4>
+        <a href="https://github.com/etacalpha">icon</a>
+      </section>
     </article>
   );
 }

@@ -7,7 +7,13 @@ class Nav extends Component {
     return (
       <nav>
         <header className="title">
-          <h1>SB</h1>
+          <h1
+            onClick={() => {
+              this.props.pageChange(0);
+            }}
+          >
+            SB
+          </h1>
         </header>
         <section className="links">
           <a

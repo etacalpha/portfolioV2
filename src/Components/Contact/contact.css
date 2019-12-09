@@ -1,13 +1,34 @@
 .contact {
   display: flex;
   flex-direction: column;
-  margin: auto auto auto 4.2em;
-  line-height: 2.5em;
-  align-content: center;
   justify-content: center;
+  align-content: center;
   background-color: aqua;
   min-height: 100vh;
+  margin: auto auto auto 4.2em;
+  text-align: center;
+}
+.contact header p {
+  width: 50%;
+  margin: auto auto 1em auto;
 }
 .contact a {
   text-decoration: none;
+}
+
+.contact section {
+  /* flex: 1; */
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: center;
+  vertical-align: middle;
+  margin: 0.5em 25% 0.5em 25%;
+}
+.contact h4,
+.contact a,
+.contact p {
+  text-align: left;
+  margin: 0;
+  padding: 0;
 }

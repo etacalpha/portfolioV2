@@ -1,7 +1,7 @@
 .indicator {
   display: block;
   position: absolute;
-  right: 1.5em;
+  right: 0;
   top: 50%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);

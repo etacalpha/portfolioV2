@@ -3,7 +3,7 @@
   position: relative;
   margin: auto;
   background-color: #fff;
-  height: fit-content;
+  height: 90vh;
 }
 
 .project__wrapper {
@@ -24,7 +24,7 @@
   top: 5%;
   right: 10%;
   left: 10%;
-  width: 50vw;
+  width: 80vw;
   height: 90%;
   z-index: 10000;
 }
@@ -40,8 +40,8 @@
   float: left;
   font-size: 1.75rem;
   padding: 1rem;
-  width: 34.5%;
-  height: 100%;
+  width: 32.9%;
+  height: 96.3%;
   margin: 0;
 }
 
@@ -63,7 +63,7 @@
 .modal__image {
   float: right;
   opacity: 1;
-  width: 62.15%;
+  width: 65%;
   height: 100%;
   margin: 0;
 }

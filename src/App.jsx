@@ -21,7 +21,10 @@ class App extends Component {
   pageChange(value) {
     this.flipPage.gotoPage(value);
   }
+
   render() {
+    let myWork = require("./Assets/projects.json");
+
     return (
       <div className="app">
         <Indicators currentPage={this.state.currentPage} />
@@ -34,8 +37,10 @@ class App extends Component {
             ref={component => {
               this.flipPage = component;
             }}
+            orientation={'horizontal'}
             loopForever={true}
             responsive={true}
+            uncutPages={true}
             firstComponent={Index}
             onPageChange={pageIndex => {
               this.setState({ currentPage: pageIndex });
@@ -43,7 +48,7 @@ class App extends Component {
           >
             <Index />
             <About />
-            <Portfolio />
+            <Portfolio work={myWork} />
             <Contact />
           </FlipPage>
         </main>

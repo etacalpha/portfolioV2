@@ -1,11 +1,11 @@
 .indicator {
-  display: block;
-  position: absolute;
-  right: 0;
-  top: 50%;
+  display: flex;
+  position: fixed;
+  right: 45%;
+  bottom: -2%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  z-index: 3;
+  z-index: 1;
 }
 
 .unselected {
@@ -14,7 +14,7 @@
   border: 2px solid black;
   border-radius: 50%;
   background-color: white;
-  margin: 0.5em 0 0.5em 0;
+  margin: 0.5em .13em 0.5em .13em;
 }
 
 .selected {
@@ -23,5 +23,5 @@
   border: 2px solid black;
   border-radius: 50%;
   background-color: orange;
-  margin: 0.5em 0 0.5em 0;
+  margin: 0.5em .13em 0.5em .13em;
 }

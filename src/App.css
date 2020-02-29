@@ -1,3 +1,11 @@
+body {
+  --gray: rgb(44, 53, 49);
+  --blue: #116466;
+  --tan: #d9b08c;
+  --peach: #ffcb9a;
+  --lt-blue: #d1e8e2;
+}
+
 main {
   width: 100vw;
 }

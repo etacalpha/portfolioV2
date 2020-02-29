@@ -1,5 +1,5 @@
 body {
-  --gray: rgb(44, 53, 49);
+  --gray: #2c3531;
   --blue: #116466;
   --tan: #d9b08c;
   --peach: #ffcb9a;
@@ -7,7 +7,10 @@ body {
 }
 
 main {
-  width: 100vw;
+  position: absolute;
+  left:4.3em;
+  width: calc(100vw - 4.3em);
+  height:100vh;
 }
 
 nav {
@@ -16,7 +19,7 @@ nav {
   background-color: #0d0d38;
   text-align: center;
   color: orange;
-  height: 100vh;
+  height: 100%;
   max-width: min-content;
   z-index: 3;
 }

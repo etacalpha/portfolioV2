@@ -27,12 +27,13 @@ class App extends Component {
 
     return (
       <div className="app">
-        <Indicators currentPage={this.state.currentPage} />
+        
         <nav>
           <Nav pageChange={this.pageChange} />
         </nav>
 
         <main>
+        <Indicators currentPage={this.state.currentPage} />
           <FlipPage
             ref={component => {
               this.flipPage = component;

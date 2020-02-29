@@ -20,7 +20,7 @@ class WorkModal extends React.Component {
           >x
           </span>
           <h2 className="modal__title">{work.title}</h2>
-          <a className="color--blue modal__link" href={work.code}>
+          <a className="modal__link" href={work.code}>
             See the code
           </a>
           <p className="modal__description">

@@ -8,64 +8,41 @@ function Nav() {
       <section className="img">
         <picture>
           <img
-            src="https://via.placeholder.com/700X1000"
+            src="https://placekitten.com/700/900"
             alt="of developer"
           ></img>
         </picture>
       </section>
       <section className="info">
         <section>
-          <h4>Provide</h4>
+          <h4>What I bring</h4>
           <p>
-            Incididunt pariatur dolore cillum pariatur magna pariatur ut ullamco
-            exercitation aute proident eiusmod eu deserunt. Excepteur aute
-            laborum eu officia labore. Sunt non minim adipisicing consectetur
-            aute labore magna dolore tempor. Irure irure nulla eu ex officia
-            irure proident. Lorem mollit officia reprehenderit laborum. Cillum
-            nisi irure occaecat reprehenderit deserunt ut Lorem. Voluptate
-            cupidatat veniam id anim dolore aliquip duis ad.
+            I have a documented history of being a member of a team and the ability to assume leadership roles.
+            Both of which are exemplified by my various roles starting at the entry/junior level and then being 
+            asked to take on more responsibility. <br></br><br></br>
+              - junor aws developer to aws manager<br></br><br></br>
+              - emt crew member to paramedic crew leader<br></br><br></br>
+              - infantry soldier to infantry squad leader
           </p>
         </section>
         <section>
-          <h4>History</h4>
+          <h4>Who I am</h4>
           <p>
-            Incididunt pariatur dolore cillum pariatur magna pariatur ut ullamco
-            exercitation aute proident eiusmod eu deserunt. Excepteur aute
-            laborum eu officia labore. Sunt non minim adipisicing consectetur
-            aute labore magna dolore tempor. Irure irure nulla eu ex officia
-            irure proident. Lorem mollit officia reprehenderit laborum. Cillum
-            nisi irure occaecat reprehenderit deserunt ut Lorem. Voluptate
-            cupidatat veniam id anim dolore aliquip duis ad.
-          </p>
-          <p>
-            Incididunt pariatur dolore cillum pariatur magna pariatur ut ullamco
-            exercitation aute proident eiusmod eu deserunt. Excepteur aute
-            laborum eu officia labore. Sunt non minim adipisicing consectetur
-            aute labore magna dolore tempor. Irure irure nulla eu ex officia
-            irure proident. Lorem mollit officia reprehenderit laborum. Cillum
-            nisi irure occaecat reprehenderit deserunt ut Lorem. Voluptate
-            cupidatat veniam id anim dolore aliquip duis ad.
+            I am a father of 3 and a husband. My life has been dedicated to the service of others,
+            first as a soldier, then as a Emergency Responder. I could not continue with the phyiscal 
+            demands of theese professions due to injuries I recieved overseas. So I taught myself how 
+            to use linux, and attended a coding bootcamp to become more porficient at development. Now
+            I am developing (Saas) software using AWS (Dyanmo, Athena, Lambda, StepFunctions, API Gateway ...) 
+            for the backend/infrastructure and React.js.
           </p>
         </section>
         <section>
-          <h4>Future</h4>
+          <h4>What I want</h4>
           <p>
-            Proident labore nulla sint aute ut occaecat pariatur duis ipsum in
-            excepteur. Ipsum ex culpa quis adipisicing. Duis incididunt
-            consequat voluptate officia do laborum veniam consequat dolore aute
-            anim voluptate esse reprehenderit. Ea nisi elit cillum laboris.
-            Aliquip consectetur sit ex et elit sit labore nulla duis nisi
-            ullamco ex eu exercitation. Laborum veniam excepteur reprehenderit
-            consectetur. Reprehenderit esse cillum tempor velit ad pariatur.
-          </p>
-          <p>
-            Proident labore nulla sint aute ut occaecat pariatur duis ipsum in
-            excepteur. Ipsum ex culpa quis adipisicing. Duis incididunt
-            consequat voluptate officia do laborum veniam consequat dolore aute
-            anim voluptate esse reprehenderit. Ea nisi elit cillum laboris.
-            Aliquip consectetur sit ex et elit sit labore nulla duis nisi
-            ullamco ex eu exercitation. Laborum veniam excepteur reprehenderit
-            consectetur. Reprehenderit esse cillum tempor velit ad pariatur.
+          I would love to leave a mark on the world and create software that leaves a lasting change. That's not
+          to say that the simple things are irrelevant. We all have had to interact with software that made the 
+          actual task more difficult. I would be satisfied in knowing that I created something that makes even the 
+          mundane task more enjoyable for people therefore increasing the quality of their lives.
           </p>
         </section>
       </section>

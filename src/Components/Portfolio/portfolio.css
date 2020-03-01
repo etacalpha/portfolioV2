@@ -85,11 +85,11 @@
 
 @media screen and (max-width: 468px) {
   .project__wrapper {
-    width: 5em;
-    height: 5em;
+    width: 4em;
+    height: 4em;
   }
   .img_holder img {
-    width: 5em;
-    height: 5em;
+    width: 4em;
+    height: 4em;
   }
 }

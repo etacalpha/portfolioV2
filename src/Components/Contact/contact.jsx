@@ -10,7 +10,7 @@ function Contact() {
         <p>
           Thank you for taking the time to review my website. Please feel freel
           to email or call. Due to the number being listed here I will not
-          anserwe but will return your call as soon as possible. Have a great
+          anserw but will return your call as soon as possible. Have a great
           day.
         </p>
       </header>

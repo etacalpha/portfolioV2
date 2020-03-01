@@ -45,8 +45,14 @@ class Index extends Component {
     return (
       <article
         className="index"
-        style={{ backgroundImage: urlString }}
-      ></article>
+        style={{ backgroundImage: urlString }}>
+        <section id="overlay">
+        </section>
+        <section id="info">
+        <p><strong>Welcome</strong> to my portfolio</p>
+        </section>
+        
+      </article>
     );
   }
 }

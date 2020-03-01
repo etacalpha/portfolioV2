@@ -3,7 +3,6 @@
   align-content: center;
   justify-content: center;
   min-height: 100vh;
-  overflow: auto;
 } 
 picture{
   display: block;
@@ -18,9 +17,9 @@ img {
 }
 
 .info {
-  align-content: center;
-  margin: auto 1em auto 1.25em;
-  padding-bottom: 0;
+  /* align-content:center; */
+  margin: auto;
+  padding:1em;
   color: #191a2c;
   text-shadow: .5px .5px .5px lightgray;
 
@@ -32,11 +31,19 @@ img {
   margin:0;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 500px) {
   .about {
     flex-wrap: wrap;
+    overflow-x: hidden; 
+    overflow-y: scroll; 
+    -webkit-overflow-scrolling: touch;
+    height: 100%;
   }
   .img {
     display: none;
   }
+  body{
+    height: 100%;
+  }
+  
 }

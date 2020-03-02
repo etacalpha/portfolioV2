@@ -8,7 +8,9 @@
   padding: 5px;
   margin: auto;
 }
+
 .title a {
+  color: orange;
   text-decoration: none;
 }
 

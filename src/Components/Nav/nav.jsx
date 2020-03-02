@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import {Link} from "react-router-dom";
 
 import "./nav.css";
 
@@ -7,39 +8,14 @@ class Nav extends Component {
     return (
       <nav>
         <header className="title">
-          <h1
-            onClick={() => {
-              this.props.pageChange(0);
-            }}
-          >
-            SB
+          <h1>
+          <Link to="/">SB</Link>
           </h1>
         </header>
         <section className="links">
-          <a
-            href="#about"
-            onClick={() => {
-              this.props.pageChange(1);
-            }}
-          >
-            About
-          </a>
-          <a
-            href="#creations"
-            onClick={() => {
-              this.props.pageChange(2);
-            }}
-          >
-            Projects
-          </a>
-          <a
-            href="#contact"
-            onClick={() => {
-              this.props.pageChange(3);
-            }}
-          >
-            Contact
-          </a>
+        <Link to="/about">About</Link>
+        <Link to="/portfolio">Projects</Link>
+        <Link to="/contact">Contact</Link> 
         </section>
       </nav>
     );

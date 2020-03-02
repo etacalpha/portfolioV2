@@ -1,4 +1,5 @@
-import React, { Component } from "react";
+import React from "react";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 import Index from "./Components/Index/index";
 import Nav from "./Components/Nav/nav";
@@ -9,33 +10,22 @@ import Indicators from "./Components/Indicators/indicators";
 
 import "./App.css";
 
-class App extends Component {
-  constructor(props) {
-    super(props);
-  
-  }
-
-  render() {
-    let myWork = require("./Assets/projects.json");
-
-    return (
-      <div className="app">
-        
-        <nav>
-          <Nav />
-        </nav>
-
-        <main>
-        <Indicators />
-          
-            <Index />
-            <About />
-            <Portfolio work={myWork} />
-            <Contact />
-        </main>
-      </div>
-    );
-  }
+export default function App() {
+  let myWork = require("./Assets/projects.json");
+  return (
+    <Router>
+      <Indicators />
+      <nav>
+        <Nav />
+      </nav>
+      <main>
+        <Switch>
+          <Route exact path="/" component={Index} />
+          <Route path="/about" component={About} />
+          <Route path="/portfolio" render={(props) => <Portfolio work={myWork} {...props}/>} />
+          <Route path="/contact" component={Contact} />
+        </Switch>
+      </main>
+    </Router>
+  );
 }
-
-export default App;

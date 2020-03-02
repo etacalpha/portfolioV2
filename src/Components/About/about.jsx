@@ -14,6 +14,17 @@ function Nav() {
         </picture>
       </section>
       <section className="info">
+      <section>
+          <h4>Who I am</h4>
+          <p>
+            I am a father of 3 and a husband. My life has been dedicated to the service of others,
+            first as a soldier, then as a Emergency Responder. I could not continue with the phyiscal 
+            demands of these professions due to injuries I recieved while serving in the army overseas. 
+            I taught myself how to use linux, and attended a coding bootcamp to become more proficient 
+            at development. Now I am developing (Saas) software using AWS (Dyanmo, Athena, Lambda, 
+            StepFunctions, API Gateway ...) for the backend/infrastructure and React.js.
+          </p>
+        </section>
         <section>
           <h4>What I bring</h4>
           <p>
@@ -23,17 +34,6 @@ function Nav() {
               - Junior AWS developer to AWS manager<br></br><br></br>
               - Emergency Medical Technician to Paramedic crew leader<br></br><br></br>
               - Infantry soldier to infantry squad leader
-          </p>
-        </section>
-        <section>
-          <h4>Who I am</h4>
-          <p>
-            I am a father of 3 and a husband. My life has been dedicated to the service of others,
-            first as a soldier, then as a Emergency Responder. I could not continue with the phyiscal 
-            demands of these professions due to injuries I recieved overseas. I taught myself how 
-            to use linux, and attended a coding bootcamp to become more proficient at development. Now
-            I am developing (Saas) software using AWS (Dyanmo, Athena, Lambda, StepFunctions, API Gateway ...) 
-            for the backend/infrastructure and React.js.
           </p>
         </section>
         <section>

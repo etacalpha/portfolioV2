@@ -32,18 +32,10 @@ img {
 }
 
 @media screen and (max-width: 500px) {
-  .about {
-    flex-wrap: wrap;
-    overflow-x: hidden; 
-    overflow-y: scroll; 
-    -webkit-overflow-scrolling: touch;
-    height: 100%;
-  }
+ 
   .img {
     display: none;
   }
-  body{
-    height: 100%;
-  }
+  
   
 }

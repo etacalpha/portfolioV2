@@ -17,7 +17,7 @@ class WorkModal extends React.Component {
           <span
             className="modal__closeButton"
             onClick={evt => this.props.closeModal(evt, work)}
-          >x
+          >close
           </span>
           <h2 className="modal__title">{work.title}</h2>
           <a className="modal__link" href={work.code}>

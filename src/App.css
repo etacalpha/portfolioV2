@@ -1,9 +1,10 @@
 body {
-  --gray: #2c3531;
-  --blue: #116466;
-  --tan: #d9b08c;
-  --peach: #ffcb9a;
-  --lt-blue: #d1e8e2;
+  --blue: #001a33;
+  --orange: #ffa500;
+  --light-shadow :#fafa18;
+  --dark-shadow: #0e1933;
+  --light-text-shadow: #d1d4d4;
+  overflow-x: hidden;
 }
 
 main {
@@ -11,14 +12,4 @@ main {
   margin-left:4.3em;
   width: calc(100vw - 4.3em);
   height:100vh;
-}
-
-nav {
-  position: fixed;
-  top: 0;
-  background-color: #0d0d38;
-  text-align: center;
-  color: orange;
-  height: 100%;
-  max-width: min-content;
 }

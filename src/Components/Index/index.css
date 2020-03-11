@@ -27,7 +27,7 @@
 }
 
 #info strong{
-  color: orange;
+  color: var(--orange);
   font-size: 1.5rem;
 }
 #info p{

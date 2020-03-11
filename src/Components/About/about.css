@@ -3,6 +3,7 @@
   align-content: center;
   justify-content: center;
   min-height: 100vh;
+  background-color: #fff;
 } 
 picture{
   display: block;
@@ -19,19 +20,19 @@ img {
 .info {
   /* align-content:center; */
   margin: auto;
-  padding:1em;
-  color: #191a2c;
-  text-shadow: .5px .5px .5px lightgray;
+  padding:2em;
+  color: var(--blue);
+  text-shadow: .5px .5px .5px var(--light-text-shadow);
 
 }
 .info section h4{
   font-size: 2rem;
-  color: orange;
-  text-shadow: .5px .5px 1px #191a2c;
+  color: var(--orange);
+  text-shadow: .5px .5px 1px var(--dark-shadow);
   margin:0;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
  
   .img {
     display: none;

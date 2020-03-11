@@ -1,7 +1,7 @@
 import React from "react";
 
 import Nav from "./Components/Nav/nav";
-import Indicators from "./Components/Indicators/indicators";
+// import Indicators from "./Components/Indicators/indicators";
 import Routes from "./Components/Routes";
 
 import "./App.css";
@@ -10,7 +10,7 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <Indicators />
+        {/* <Indicators /> */}
         <nav>
           <Nav />
         </nav>

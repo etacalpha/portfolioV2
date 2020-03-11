@@ -6,7 +6,7 @@ import "./nav.css";
 class Nav extends Component {
   render() {
     return (
-      <nav>
+      <nav className='nav'>
         <header className="title">
           <h1>
           <Link to="/">SB</Link>

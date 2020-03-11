@@ -1,10 +1,10 @@
 .contact {
-  height:100vh;
+  height:80vh;
+  width:80vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-content: center;
-  background-color: aqua;
   margin: auto;
   text-align: center;
 }

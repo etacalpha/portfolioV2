@@ -6,12 +6,10 @@ function Contact() {
   return (
     <article className="contact">
       <header>
-        <h1>Contact Me!!</h1>
         <p>
-          Thank you for taking the time to review my website. Please feel freel
-          to email or call. Due to the number being listed here I will not
-          anserw but will return your call as soon as possible. Have a great
-          day.
+          Thank you for taking the time to review my website. Please feel free
+          to email me or leave a message on the google voice number below.
+           Have a great day.
         </p>
       </header>
       <section>

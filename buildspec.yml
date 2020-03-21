@@ -7,15 +7,9 @@ phases:
   pre_build:
     commands:
       - npm install
-      - npm test
   build:
     commands:
-      - npm run webpack
+      - npm run build
 artifacts:
   files:
-    - index.html
-    - favicon.ico
-    - Steven_Beard.pdf
-    - styles/*
-    - images/*
-    - dist/bundle.js
+    - '**/*'

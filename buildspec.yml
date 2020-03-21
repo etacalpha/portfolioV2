@@ -28,7 +28,7 @@ phases:
       # to force CloudFront to update its edge locations with the new versions
       - >
         aws cloudfront create-invalidation --distribution-id EDSXA2HRFT5JV
-        --paths /index.html /service-worker.js
+        --paths /index.html 
 artifacts:
   files:
     - '**/*'

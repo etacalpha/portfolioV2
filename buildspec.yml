@@ -17,18 +17,13 @@ phases:
       - >
         aws s3 cp --acl bucket-owner-full-control 
         --cache-control="max-age=0, no-cache, no-store, must-revalidate" 
-        ./build/service-worker.js s3://steven-beard.io --sse aws:kms
+        ./build/service-worker.js s3://steven-beard.io 
       # set the cache-control headers for index.html to prevent
       # browser caching
       - >
         aws s3 cp --acl bucket-owner-full-control 
         --cache-control="max-age=0, no-cache, no-store, must-revalidate" 
-        ./build/index.html s3://steven-beard.io --sse aws:kms
-      # invalidate the CloudFront cache for index.html and service-worker.js
-      # to force CloudFront to update its edge locations with the new versions
-      - >
-        aws cloudfront create-invalidation --distribution-id EDSXA2HRFT5JV
-        --paths /index.html 
+        ./build/index.html s3://steven-beard.io 
 artifacts:
   files:
     - '**/*'

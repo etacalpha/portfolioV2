@@ -102,5 +102,32 @@
       "tech": "Java 8",
       "dsc": "This is a command line app that mimics the operation of a vending machine to include giving change with minimal coins."
     }
+  },
+  {
+    "title": "Clarity",
+    "type":"professional",
+    "code": "Proprietary",
+    "image": {
+      "description": "screenshot of project",
+      "src": "/images/prop.jpg"
+    },
+    "long_dsc": {
+      "tech": "Proprietary",
+      "dsc": "This is a Saas application that assits customers with pricing the sales of their software."
+    }
+  },
+  {
+    "title": "Covid-19 Updater",
+    "type":"personal",
+    "code": "https://github.com/etacalpha/coronaupdater",
+    "web":"http://covidupdater.com",
+    "image": {
+      "description": "screenshot of project",
+      "src": "/images/covinUpdater"
+    },
+    "long_dsc": {
+      "tech": "React.js using Hooks, AWS: Route 53, S3, Sam",
+      "dsc": "This is a simple web page that gives current statistics about Covin-19. Data is called from a public api"
+    }
   }
 ]

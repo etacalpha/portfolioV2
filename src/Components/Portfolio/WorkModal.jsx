@@ -20,13 +20,16 @@ class WorkModal extends React.Component {
           >close
           </span>
           <h2 className="modal__title">{work.title}</h2>
-          <a className="modal__link" href={work.code}>
+          {work.code!=='Proprietary'?<a className="modal__link" href={work.code}  target="_blank" rel="noopener noreferrer">
             See the code
-          </a>
+          </a>: 'The code is Proprietary'}
           <p className="modal__description">
             Tech: {work.long_dsc.tech} <br />
             <br />
-            {work.long_dsc.dsc}
+            {work.long_dsc.dsc}<br /><br />
+            {work.web? <a className="modal__link" href={work.web}  target="_blank" rel="noopener noreferrer">
+            See Live
+          </a>: null }
           </p>
         </div>
       </div>

@@ -33,7 +33,6 @@ class Projects extends React.Component {
   render() {
     return (
       <span className="portfolio">
-        <section>Works heading</section>
         <section className="projects">
           {this.props.work.map((work, idx) => {
             return (
@@ -41,7 +40,7 @@ class Projects extends React.Component {
             );
           })}
         </section >
-          <WorkModal className="test"
+          <WorkModal 
             work={this.state.selectedWork}
             open={this.state.modalOpen}
             closeModal={this.closeModal}

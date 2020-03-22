@@ -59,7 +59,7 @@
   align-content: center;
   width: 80vw;
   height: 90vh;
-  top:-20%;
+  top: -20%;
   left: -5%;
   border: 1px solid black;
 }
@@ -67,7 +67,7 @@
 .modal__closeButton {
   z-index: 1;
   cursor: pointer;
-  color:red;
+  color: red;
 }
 .modal__title {
   color: var(--orange);
@@ -106,17 +106,21 @@
 
 @media screen and (max-width: 600px) {
   .modal--open {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     flex-direction: column-reverse;
-    top: 15%;
-    right: 0;
-    left:-30%;
-    width: 95vw;
+    width: calc(100vw - 10px);
     margin: 0;
     border: 2px solid black;
+    scroll-snap-destination: 0% 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
   }
-  .modalClass{
+  /* .modalClass{
     width:95vw;
-  }
+  } */
   .modal_img_holder {
     width: 100%;
   }
@@ -127,6 +131,6 @@
   }
 
   .modal__text {
-    width:90%;
+    width: 90%;
   }
 }

@@ -1,59 +1,35 @@
-import React, { Component } from "react";
+import React, { useState, useEffect } from "react";
 
 import "./index.css";
-class Index extends Component {
-  constructor(props) {
-    super(props);
 
-    const images = [
-      "https://placekitten.com/640/360",
-      "https://placekitten.com/g/640/360"
-    ];
+export default function Index() {
+  const images = [
+    "https://placekitten.com/1000/1000",
+    "https://placekitten.com/g/1000/1000"
+  ];
 
-    this.state = {
-      images,
-      currentImg: 0
-    };
-  }
+  const [data, setData] = useState({ urlString: 0 });
 
-  componentDidMount() {
-    this.interval = setInterval(() => this.changeBackgroundImage(), 30000);
-  }
+  useEffect(() => {
+    
+    const interval = setInterval(() => {
+      setData({urlString : data.urlString===0?1:0})
+    }, 15000);
 
-  componentWillUnmount() {
-    if (this.interval) {
-      clearInterval(this.interval);
-    }
-  }
+    return () => clearInterval(interval);
+  }, [data.urlString]);
 
-  changeBackgroundImage() {
-    let newCurrentImg = 0;
-    const { images, currentImg } = this.state;
-    const noOfImages = images.length;
-
-    if (currentImg !== noOfImages - 1) {
-      newCurrentImg = currentImg + 1;
-    }
-
-    this.setState({ currentImg: newCurrentImg });
-  }
-
-  render() {
-    const { images, currentImg } = this.state;
-    const urlString = `url('${images[currentImg]}')`;
-
-    return (
-      <article
-        className="index"
-        style={{ backgroundImage: urlString }}>
-        <section id="overlay">
-        </section>
-        <section id="info">
-        <p><strong>Welcome</strong> to my portfolio</p>
-        </section>
-        
-      </article>
-    );
-  }
+  return (
+    <article>
+      <section id="index">
+        <img src={images[data.urlString]} alt="cat"/>
+      </section>
+      <section id="overlay"></section>
+      <section id="info">
+        <p>
+          <strong>Welcome</strong> to my portfolio
+        </p>
+      </section>
+    </article>
+  );
 }
-export default Index;

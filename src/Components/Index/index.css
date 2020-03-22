@@ -1,17 +1,20 @@
-.index {
+#index {
+  position: absolute;
   height: 100vh;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  margin: auto;
-  
+  width: calc(100vw - 4.3em);
+  z-index: -1;
+  overflow: hidden;
 }
+
+/* #index img{
+  width: 100%;
+  height: 100%;
+} */
 #overlay{
   position: absolute;
-  bottom: 0;
-  left:0;
-  width: 100%;
-  height:100%;
+  height: 100vh;
+  width: calc(100vw - 4.3em);
+  z-index: 0;
   background-color: rgba(7, 6, 19, 0.405);
 }
 #info{

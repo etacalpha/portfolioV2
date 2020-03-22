@@ -15,6 +15,10 @@ class Projects extends React.Component {
     this.closeModal = this.closeModal.bind(this);
   }
 
+  componentDidMount() {
+    window.scrollTo(0, 0);
+}
+
   // Functions
   openModal(evt, work) {
     this.setState({

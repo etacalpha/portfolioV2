@@ -2,6 +2,7 @@ import React from "react";
 import "./portfolio.css";
 
 class WorkModal extends React.Component {
+
   render() {
     let work = this.props.work;
     let modalClass = this.props.open ? "modal--open" : "modal--closed";

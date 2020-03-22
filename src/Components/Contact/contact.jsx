@@ -25,7 +25,7 @@ function Contact() {
       </section>
       <section>
         <h4>LinkedIn:</h4>
-        <a href="www.linkedin.com/in/steven-beard"><FontAwesomeIcon icon={faLinkedinIn} size="2x"/>
+        <a href="https://linkedin.com/in/steven-beard"><FontAwesomeIcon icon={faLinkedinIn} size="2x"/>
 </a>
       </section>
       <section>

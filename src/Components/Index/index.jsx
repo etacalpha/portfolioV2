@@ -14,7 +14,7 @@ export default function Index() {
     
     const interval = setInterval(() => {
       setData({urlString : data.urlString===0?1:0})
-    }, 15000);
+    }, 10000);
 
     return () => clearInterval(interval);
   }, [data.urlString]);

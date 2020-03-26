@@ -60,7 +60,9 @@ textarea {
   justify-content: space-around;
   align-items: center;
 }
-
+.notification{
+  text-align: center !Important;
+}
 .button{
   margin: auto;
   font-size: 1.25em;

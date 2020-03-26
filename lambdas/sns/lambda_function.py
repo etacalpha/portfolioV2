@@ -10,7 +10,7 @@ def lambda_handler(event,context):
   try:  
     response = sns_client.publish(
       PhoneNumber=os.environ['Phone_Number'], 
-      Message=f"{message['message']} from {message['user']} @ {message['contact']}"
+      Message=f"{message['message']} \n from: {message['user']} \n contact: {message['contact']}"
     )
 
     print(response)

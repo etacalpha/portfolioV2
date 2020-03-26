@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import { useForm } from "react-hook-form";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedinIn, faGithubAlt } from "@fortawesome/free-brands-svg-icons";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 import "./contact.css";
 
@@ -17,13 +19,28 @@ export default function Contact() {
     setShow(false);
   };
 
+  const notify = (message) => toast(message);
+
   const sendMessage = data => {
-    axios.post(
-      "https://xjpp0oho0k.execute-api.us-east-1.amazonaws.com/Prod/messages",
-      {
-        user: data.user, contact: data.contact, message: data.message
-      }
-    );
+    axios
+      .post(
+        "https://xjpp0oho0k.execute-api.us-east-1.amazonaws.com/Prod/messages",
+        {
+          user: data.user,
+          contact: data.contact,
+          message: data.message
+        }
+      )
+      .then(
+        res => {
+          notify("Message sent, thank you!");
+          console.log(res);
+        },
+        err => {
+          notify("There was a problem sending the message.");
+          console.log(err);
+        }
+      );
   };
 
   const textArea = document.querySelector("textarea");
@@ -107,6 +124,7 @@ export default function Contact() {
       <button onClick={openModal} className={"button"}>
         Text me
       </button>
+      <ToastContainer />
     </article>
   );
 }

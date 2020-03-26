@@ -6,8 +6,7 @@ import Routes from "./Components/Routes";
 
 import "./App.css";
 
-class App extends React.Component {
-  render() {
+function App () {
     return (
       <div>
         <nav>
@@ -19,5 +18,4 @@ class App extends React.Component {
       </div>
     );
   }
-}
 export default App;

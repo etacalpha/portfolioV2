@@ -1,11 +1,11 @@
 .contact {
-  height:80vh;
-  width:80vw;
+  width: 80vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-content: center;
   margin: auto;
+  padding-top: 5em;
 }
 .contact header p {
   width: 50%;
@@ -30,4 +30,46 @@
   text-align: left;
   margin: 0;
   padding: 0;
+}
+
+.formHolder {
+  display: block;
+  margin: 10em auto;
+  justify-content: center;
+  background-color: var(--blue);
+  padding: 1em;
+  border: 2px solid black;
+  width: fit-content;
+}
+.messageForm {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  color: var(--orange);
+}
+.messageForm > * {
+  padding: 0.5em;
+}
+
+textarea {
+  width: 20vw;
+}
+
+.buttonContainer{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.button{
+  margin: auto;
+  font-size: 1.25em;
+  border-radius: 15em;
+}
+
+
+@media screen and (max-width: 600px) {
+  textarea {
+    width: 57vw;
+  }
 }

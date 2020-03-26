@@ -16,6 +16,20 @@ export default function Contact() {
     setShow(false);
   };
 
+
+  const sendMessage = (data) =>{
+    
+    const requestOptions = {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(data)
+  };
+  fetch('https://xjpp0oho0k.execute-api.us-east-1.amazonaws.com/Prod/messages', requestOptions)
+      .then(response => response.json())
+      .then(console.log(response));
+}
+  }
+
   const textArea = document.querySelector("textarea");
   const textRowCount = textArea ? textArea.value.split("\n").length : 0;
   const rows = textRowCount + 3;
@@ -23,6 +37,7 @@ export default function Contact() {
   const { register, handleSubmit, errors, reset } = useForm(); // initialise the hook
   const onSubmit = data => {
     console.log(data);
+    sendMessage(data);
     reset({
       errors: false,
       dirtyFields: false,

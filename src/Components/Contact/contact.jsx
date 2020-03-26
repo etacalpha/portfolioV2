@@ -1,12 +1,13 @@
-import React, { useState} from "react";
+import React, { useState } from "react";
 import { useForm } from "react-hook-form";
-
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedinIn, faGithubAlt } from "@fortawesome/free-brands-svg-icons";
 
 import "./contact.css";
 
 export default function Contact() {
+  const axios = require("axios");
+
   const [modalShow, setShow] = useState(false);
 
   const openModal = () => {
@@ -16,19 +17,14 @@ export default function Contact() {
     setShow(false);
   };
 
-
-  const sendMessage = (data) =>{
-    
-    const requestOptions = {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(data)
+  const sendMessage = data => {
+    axios.post(
+      "https://xjpp0oho0k.execute-api.us-east-1.amazonaws.com/Prod/messages",
+      {
+        user: data.user, contact: data.contact, message: data.message
+      }
+    );
   };
-  fetch('https://xjpp0oho0k.execute-api.us-east-1.amazonaws.com/Prod/messages', requestOptions)
-      .then(response => response.json())
-      .then(console.log(response));
-}
-  }
 
   const textArea = document.querySelector("textarea");
   const textRowCount = textArea ? textArea.value.split("\n").length : 0;
@@ -49,31 +45,36 @@ export default function Contact() {
     });
     closeModal();
   };
-  if (modalShow) return (<section className={"formHolder"}>
-  <form onSubmit={handleSubmit(onSubmit)} className={"messageForm"}>
-    <label htmlFor="user"> Name: </label>
-    <input name="user" ref={register({ required: true })} />
-    {errors.user && "Please enter your name."}
+  if (modalShow)
+    return (
+      <section className={"formHolder"}>
+        <form onSubmit={handleSubmit(onSubmit)} className={"messageForm"}>
+          <label htmlFor="user"> Name: </label>
+          <input name="user" ref={register({ required: true })} />
+          {errors.user && "Please enter your name."}
 
-    <label htmlFor="contact"> Contact # / email: </label>
-    <input name="contact" ref={register({ required: true })} />
-    {errors.contact && "Email or phone number is required."}
+          <label htmlFor="contact"> Contact # / email: </label>
+          <input name="contact" ref={register({ required: true })} />
+          {errors.contact && "Email or phone number is required."}
 
-    <label htmlFor="message"> Message: </label>
-    <textarea
-      name="message"
-      ref={register({ required: true })}
-      rows={rows}
-      placeholder="Enter text here."
-    />
-    {errors.message && "Please enter a message."}
-    <div className={"buttonContainer"}>
-      {" "}
-      <button onClick={closeModal}className={'button'}>Cancel</button>{" "}
-      <input type="submit" className={'button'}/>
-    </div>
-  </form>
-</section>)
+          <label htmlFor="message"> Message: </label>
+          <textarea
+            name="message"
+            ref={register({ required: true })}
+            rows={rows}
+            placeholder="Enter text here."
+          />
+          {errors.message && "Please enter a message."}
+          <div className={"buttonContainer"}>
+            {" "}
+            <button onClick={closeModal} className={"button"}>
+              Cancel
+            </button>{" "}
+            <input type="submit" className={"button"} />
+          </div>
+        </form>
+      </section>
+    );
 
   return (
     <article className="contact">
@@ -103,7 +104,9 @@ export default function Contact() {
           <FontAwesomeIcon icon={faGithubAlt} size="2x" />
         </a>
       </section>
-      <button onClick={openModal} className={'button'}>Text me</button>   
+      <button onClick={openModal} className={"button"}>
+        Text me
+      </button>
     </article>
   );
 }

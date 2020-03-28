@@ -2,15 +2,13 @@
   display: flex;
   align-content: center;
   justify-content: center;
-  height: 100vh;
-  overflow-y: scroll;
-
+  min-height: 100vh;
+  background-color: #fff;
 } 
 picture{
-  display: flex;
-  height:100%;
-  width:45vw;
-  background-color: #000;;
+  display: block;
+  height: 100%;
+  width: 33vw;
 }
 
 img {
@@ -19,11 +17,17 @@ img {
 }
 
 .info {
+  /* align-content:center; */
   margin: auto;
   padding:2em;
+  color: var(--blue);
+  text-shadow: .5px .5px .5px var(--light-text-shadow);
+
 }
 .info section h4{
   font-size: 2rem;
+  color: var(--orange);
+  text-shadow: .5px .5px 1px var(--dark-shadow);
   margin:0;
 }
 

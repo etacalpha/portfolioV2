@@ -1,29 +1,42 @@
 .portfolio {
   display: block;
+  position: relative;
   margin: auto;
-  height: 100vh;
-  overflow-y: scroll;
- 
-  
+  background-color: #fff;
+  width: 70vw;
 }
 .projects {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-content: center;
-  margin: 10% 20% 0 20%;
+  width: 100%;
+  max-height: fit-content;
+  margin: 10% auto;
+  max-width: fit-content;
+}
+.heading {
+  background-color: var(--blue);
+  height: 2em;
+  color: var(--orange);
+  width: 100%;
+  text-align: center;
+  font-size: 1.5em;
+  line-height: 2em;
+  box-shadow: 2px 2px 4px rgb(82, 81, 81);
 }
 
 .project_title {
   margin: -0.75em;
   text-align: center;
+  color: var(--blue);
 }
 
 .project__wrapper {
   width: 10em;
   height: 10em;
-  margin: 2em;
-  border: 2px solid #DE7119;
+  margin: 1.5em;
+  border: 3px solid var(--orange);
   border-radius: 50%;
   cursor: pointer;
 }
@@ -47,9 +60,9 @@
   align-content: center;
   width: 80vw;
   height: 90vh;
-  top: 5%;
-  left: 10%;
-  border: 1px solid rgb(0, 0, 0);
+  top: -20%;
+  left: -5%;
+  border: 1px solid black;
 }
 
 .modal__closeButton {
@@ -58,13 +71,13 @@
   color: red;
 }
 .modal__title {
-  color:var(--cyan);
-  text-shadow: 0.5px 0.5px var(--pTaupe);
+  color: var(--orange);
+  text-shadow: 0.5px 0.5px var(--light-shadow);
 }
 
 .modal__text {
-  background-color: var(--darkBlue);
-  color:lightgray;
+  background-color: var(--blue);
+  color: #fff;
   font-size: 1.25rem;
   padding: 1em;
   width: 30%;
@@ -72,10 +85,11 @@
 }
 
 .modal__link {
-  background-color: var(--blue);
-  color: var(--white);
+  color: var(--blue);
   font-weight: 900;
-  padding: 0.4rem 1em;
+  background-color: #fff;
+  border-radius: 4px;
+  padding: 0.4rem 1rem;
   text-transform: uppercase;
   text-decoration: none;
 }
@@ -105,7 +119,9 @@
     overflow-y: scroll;
     overflow-x: hidden;
   }
-
+  /* .modalClass{
+    width:95vw;
+  } */
   .modal_img_holder {
     width: 100%;
   }

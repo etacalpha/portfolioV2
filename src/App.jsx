@@ -6,16 +6,16 @@ import Routes from "./Components/Routes";
 
 import "./App.css";
 
-function App() {
-  return (
-    <article className={"app"}>
-      <section  className={"nav"}>
-      <Nav />
-      </section>
-      <section className={"pages"} >
-      <Routes />
-      </section>
-    </article>
-  );
-}
+function App () {
+    return (
+      <div>
+        <nav>
+          <Nav />
+        </nav>
+        <main>
+          <Routes />
+        </main>
+      </div>
+    );
+  }
 export default App;

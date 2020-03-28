@@ -43,7 +43,7 @@ class Projects extends React.Component {
               <ExampleBubble work={work} key={idx} openModal={this.openModal} />
             );
           })}
-        </section > 
+        </section >
           <WorkModal 
             work={this.state.selectedWork}
             open={this.state.modalOpen}

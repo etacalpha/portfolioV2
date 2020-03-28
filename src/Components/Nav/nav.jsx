@@ -6,17 +6,18 @@ import "./nav.css";
 class Nav extends Component {
   render() {
     return (
-      <section id={'navbar'}>
+      <nav className='nav'>
         <header className="title">
+          <h1>
           <Link to="/">SB</Link>
+          </h1>
         </header>
         <section className="links">
         <Link to="/about">About</Link>
         <Link to="/portfolio">Projects</Link>
         <Link to="/contact">Contact</Link> 
-        <Link to="/resume">Resume</Link> 
         </section>
-      </section>
+      </nav>
     );
   }
 }

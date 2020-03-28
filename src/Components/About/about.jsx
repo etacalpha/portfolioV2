@@ -8,14 +8,14 @@ function Nav() {
       <section className="img">
         <picture>
           <img
-            src="../images/pc.jpg"
+            src="https://placekitten.com/700/900"
             alt="of developer"
           ></img>
         </picture>
       </section>
       <section className="info">
       <section>
-          <h4><span className={'standout'}>Who</span> I am</h4>
+          <h4>Who I am</h4>
           <p>
             I am a father of 3 and a husband. My life has been dedicated to the service of others,
             first as a soldier, then as a Emergency Responder. I could not continue with the phyiscal 
@@ -26,7 +26,7 @@ function Nav() {
           </p>
         </section>
         <section>
-          <h4><span className={'standout'}>What</span> I bring</h4>
+          <h4>What I bring</h4>
           <p>
             I have a documented history of being a member of a team with the ability to assume leadership roles.
             These are exemplified by my various roles beginning at the junior level and then being 
@@ -37,7 +37,7 @@ function Nav() {
           </p>
         </section>
         <section>
-          <h4><span className={'standout'}>Why</span> I develop</h4>
+          <h4>What I want</h4>
           <p>
           I would love to leave a mark on the world and create software that leaves a lasting change. That's not
           to say that the simple things are irrelevant. We all have had to interact with software that made the 

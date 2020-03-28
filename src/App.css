@@ -1,26 +1,16 @@
-h1,
-h2,
-h3,
-h4,
-h5 {
-  font-family: "Roboto", sans-serif;
-  color: var(--blueGray)
+body {
+  --blue: #001a33;
+  --orange: #ffa500;
+  --light-shadow :#fafa18;
+  --dark-shadow: #0e1933;
+  --light-text-shadow: #d1d4d4;
+  overflow-x: hidden;
 }
 
-.app {
-  display: flex;
-  margin:0;
-  color:var(--pTaupe);
-  background-color: var(--isabelline);
+main {
+  position: relative;
+  margin-left:4.3em;
+  width: calc(100vw - 4.3em);
+  height:100vh;
 }
-
-.pages{
-  margin:0;
-}
-
-.standout{
-  color:var(--cyan)! important;
-  text-shadow: 1px 1px var(--gunmetal);
-}
-
 

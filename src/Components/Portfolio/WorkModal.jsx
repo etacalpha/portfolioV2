@@ -25,7 +25,7 @@ class WorkModal extends React.Component {
             See the code
           </a>: 'The code is Proprietary'}
           <p className="modal__description">
-            Tech: {work.long_dsc.tech} <br />
+            <span className={'standout'}>Tech:</span> {work.long_dsc.tech} <br />
             <br />
             {work.long_dsc.dsc}<br /><br />
             {work.web? <a className="modal__link" href={work.web}  target="_blank" rel="noopener noreferrer">

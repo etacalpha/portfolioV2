@@ -26,3 +26,7 @@ yarn-error.log*
 # Deployment
 *.yml
 *.toml
+
+# IDE
+.vscode
+.editorconfig

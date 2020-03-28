@@ -23,7 +23,7 @@
   width: 10em;
   height: 10em;
   margin: 2em;
-  border: 2px solid var(--pTaupe);
+  border: 2px solid var(--skyBlue);
   border-radius: 50%;
 }
 
@@ -48,7 +48,7 @@
   height: 90vh;
   top: 5%;
   left: 10%;
-  border: 1px solid black;
+  border: 1px solid rgb(0, 0, 0);
 }
 
 .modal__closeButton {

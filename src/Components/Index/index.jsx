@@ -7,7 +7,7 @@ export default function Index() {
     <article className={"index"}>
       <section id={"name"}>
           <span className={'standout'}>
-            Steven </span>Beard
+            Steven </span><h1>Beard</h1>
       </section>
     </article>
   );

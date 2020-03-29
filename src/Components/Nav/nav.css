@@ -8,7 +8,7 @@
   width: min-content;
   height: calc(100vh - 14px);
   padding: 7px;
-  background-color: #627264;
+  background-color: #000839;
 }
 .title {
   font-family: "Great Vibes", cursive, 'Roboto', sans-serif;
@@ -17,7 +17,7 @@
 }
 
 #navbar a {
-  color: var(--isabelline);
+  color: #0eb6e9;
   text-decoration: none;
 }
 

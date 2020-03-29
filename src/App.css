@@ -4,13 +4,13 @@ h3,
 h4,
 h5 {
   font-family: "Roboto", sans-serif;
-  color: #627264
+  color: #005082
 }
 
 .app {
   display: flex;
   margin:0;
-  color:var(--pTaupe);
+  color:#000839;
   background-color: var(--isabelline);
 }
 
@@ -19,7 +19,8 @@ h5 {
 }
 
 .standout{
-  color:#c57b57! important;
+  color:#ffa41b! important;
 }
 
 
+/* c57b57 */

@@ -9,10 +9,7 @@ export default function Resume() {
 
         <section>
           <h2 className={"standout"}>
-            {" "}
-            <pre>
               AWS Developer <span>09/2019 - present</span>
-            </pre>
           </h2>
           <h3>Software Pricing Partners, Remote USA</h3>
           <ul>
@@ -41,9 +38,7 @@ export default function Resume() {
         <section>
           <h2 className={"standout"}>
             {" "}
-            <pre>
               AWS Developer <span>04/2019 - 06/2019</span>
-            </pre>
           </h2>
           <h3>Intellicog, Remote USA</h3>
           <ul>
@@ -67,9 +62,7 @@ export default function Resume() {
         <section>
           <h2 className={"standout"}>
             {" "}
-            <pre>
               Software Engineer Volunteer <span>09/2018 - 01/2019</span>
-            </pre>
           </h2>
           <h3>Hue Jackson Foundation / iFuse Solutions, Remote USA</h3>
           <ul>
@@ -91,9 +84,7 @@ export default function Resume() {
         <section>
           <h2 className={'standout'}>
             {" "}
-            <pre>
-              US Army Soldier -> Squad Leader <span>10/2002 - 05/2010</span>
-            </pre>
+              Squad Leader <span>10/2002 - 05/2010</span>
           </h2>
           <h3>US Army, Multiple locations</h3>
           <ul>
@@ -117,10 +108,9 @@ export default function Resume() {
             <h3>Cloud Services</h3>
             <li>AWS</li>
             <li>Microservices</li>
-            <li>MicroservicesArchitecture</li>
+            <li>Architecture</li>
             <li>APIs</li>
-          </ul>
-          
+          </ul> 
           <ul>
           <h3>Languages</h3>
             <li>Python</li>

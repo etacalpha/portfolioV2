@@ -4,14 +4,14 @@ h3,
 h4,
 h5 {
   font-family: "Roboto", sans-serif;
-  color: var(--blurGray)
+  color: #627264
 }
 
 .app {
   display: flex;
   margin:0;
-  color:var(--skyBlue);
-  background-color: var(--gunmetal);
+  color:var(--pTaupe);
+  background-color: var(--isabelline);
 }
 
 .pages{
@@ -19,8 +19,7 @@ h5 {
 }
 
 .standout{
-  color:var(--cyan)! important;
-  text-shadow: 1px 1px var(--pTaupe);
+  color:#c57b57! important;
 }
 
 

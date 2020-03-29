@@ -14,3 +14,8 @@
 .right{
   flex: 1;
 }
+
+.numbers{
+  font-size: .75rem;
+  padding-left: 1em;
+}

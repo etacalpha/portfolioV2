@@ -9,7 +9,7 @@ export default function Resume() {
 
         <section>
           <h2 className={"standout"}>
-              AWS Developer <span>09/2019 - present</span>
+              AWS Developer <span className={'numbers'}>09/2019 - present</span>
           </h2>
           <h3>Software Pricing Partners, Remote USA</h3>
           <ul>
@@ -38,7 +38,7 @@ export default function Resume() {
         <section>
           <h2 className={"standout"}>
             {" "}
-              AWS Developer <span>04/2019 - 06/2019</span>
+              AWS Developer <span className={'numbers'}>04/2019 - 06/2019</span>
           </h2>
           <h3>Intellicog, Remote USA</h3>
           <ul>
@@ -62,7 +62,7 @@ export default function Resume() {
         <section>
           <h2 className={"standout"}>
             {" "}
-              Software Engineer Volunteer <span>09/2018 - 01/2019</span>
+              Software Engineer Volunteer <span className={'numbers'}>09/2018 - 01/2019</span>
           </h2>
           <h3>Hue Jackson Foundation / iFuse Solutions, Remote USA</h3>
           <ul>
@@ -84,7 +84,7 @@ export default function Resume() {
         <section>
           <h2 className={'standout'}>
             {" "}
-              Squad Leader <span>10/2002 - 05/2010</span>
+              Squad Leader <span className={'numbers'}>10/2002 - 05/2010</span>
           </h2>
           <h3>US Army, Multiple locations</h3>
           <ul>

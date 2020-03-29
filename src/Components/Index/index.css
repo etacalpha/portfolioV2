@@ -11,6 +11,5 @@
   margin:0;
   top: 2vh;
   font-size: 11vw;
-  color:var(--pTaupe);
-  text-shadow: 1px 1px var(--gunmetal);
+  text-shadow: 1px 1px var(--blueGray);
 }

@@ -4,14 +4,14 @@ h3,
 h4,
 h5 {
   font-family: "Roboto", sans-serif;
-  color: var(--blueGray)
+  color: var(--blurGray)
 }
 
 .app {
   display: flex;
   margin:0;
   color:var(--skyBlue);
-  background-color: var(--pTaupe);
+  background-color: var(--gunmetal);
 }
 
 .pages{
@@ -20,7 +20,7 @@ h5 {
 
 .standout{
   color:var(--cyan)! important;
-  text-shadow: 1px 1px var(--gunmetal);
+  text-shadow: 1px 1px var(--pTaupe);
 }
 
 

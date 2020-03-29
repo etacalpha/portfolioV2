@@ -5,6 +5,7 @@ import Index from "./Index/index";
 import Portfolio from "./Portfolio/portfolio";
 import About from "./About/about";
 import Contact from "./Contact/contact";
+import Resume from "./Resume/Resume"
 
 class Routes extends React.Component {
   render() {
@@ -18,6 +19,7 @@ class Routes extends React.Component {
           render={props => <Portfolio work={myWork} {...props} />}
         />
         <Route path="/contact" component={Contact} />
+        <Route path="/resume" component={Resume} />
       </Switch>
     );
   }

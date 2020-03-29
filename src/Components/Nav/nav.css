@@ -8,7 +8,7 @@
   width: min-content;
   height: calc(100vh - 14px);
   padding: 7px;
-  background-color: var(--gunmetal);
+  /* background-color: var(--skyBlue); */
 }
 .title {
   font-family: "Great Vibes", cursive, 'Roboto', sans-serif;

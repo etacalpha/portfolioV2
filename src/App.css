@@ -11,7 +11,7 @@ h5 {
   display: flex;
   margin:0;
   color:#000839;
-  background-color: var(--isabelline);
+  background-color: #f4f6fa;
 }
 
 .pages{
@@ -19,7 +19,7 @@ h5 {
 }
 
 .standout{
-  color:#ffa41b! important;
+  color:#DE7119! important;
 }
 
 

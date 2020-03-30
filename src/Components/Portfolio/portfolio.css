@@ -25,6 +25,7 @@
   margin: 2em;
   border: 2px solid #DE7119;
   border-radius: 50%;
+  cursor: pointer;
 }
 
 .img_holder img {

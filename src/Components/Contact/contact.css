@@ -15,7 +15,7 @@
   text-decoration: none;
 }
 .sms{
-  color:blue;
+  color: var(--blue);
   cursor: pointer;
 }
 

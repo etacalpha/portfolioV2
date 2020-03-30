@@ -1,15 +1,10 @@
-@import url("https://fonts.googleapis.com/css?family=Great+Vibes&display=swap");
+/* @import url("https://fonts.googleapis.com/css?family=Great+Vibes&display=swap"); */
 
 .index {
-  flex:1;
-  overflow: hidden;
-  
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: lightGrey;
 }
 
-#name {
-  position: absolute;
-  margin:0;
-  top: 2vh;
-  font-size: 11vw;
-  text-shadow: 1px 1px var(--blueGray);
-}

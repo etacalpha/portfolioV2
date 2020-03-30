@@ -4,6 +4,7 @@ import "./Resume.css";
 export default function Resume() {
   return (
     <article className={"resume"}>
+
       <section className={"left"}>
         <h2>Work experience</h2>
 
@@ -103,6 +104,7 @@ export default function Resume() {
       <section className={"right"}>
        
         <section>
+
           <h2>Skills</h2>
           <ul>
             <h3>Cloud Services</h3>
@@ -136,7 +138,10 @@ export default function Resume() {
             <li>DevOps</li>
           </ul>
         </section>
+        <a href="./steven-beard.pdf" download>Download Resume</a>
+
       </section>
+
     </article>
   );
 }

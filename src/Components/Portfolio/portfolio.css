@@ -64,7 +64,7 @@
 
 .modal__text {
   background-color: var(--darkBlue);
-  color:var(--white);
+  color:lightgray;
   font-size: 1.25rem;
   padding: 1em;
   width: 30%;

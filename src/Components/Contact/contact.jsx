@@ -117,13 +117,13 @@ export default function Contact() {
       </section>
       <section>
         <h4>LinkedIn:</h4>
-        <a href="https://linkedin.com/in/steven-beard">
+        <a href="https://linkedin.com/in/steven-beard"  target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon icon={faLinkedinIn} size="2x" />
         </a>
       </section>
       <section>
         <h4>GitHub:</h4>
-        <a href="https://github.com/etacalpha">
+        <a href="https://github.com/etacalpha"  target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon icon={faGithubAlt} size="2x" className={'sms'}/>
         </a>
       </section>

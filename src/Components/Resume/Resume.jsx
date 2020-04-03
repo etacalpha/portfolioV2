@@ -17,7 +17,7 @@ export default function Resume() {
             <li>
               Engineered and implemented entirely serverless data ingestion and
               procrssing architectures, using microservice patterns implemented
-              with AWS services such as S# Events, Vloud Watch Events, SNS
+              with AWS services such as S3 Events, Vloud Watch Events, SNS
               Lambda/Python, Dynamo, API Gateway, and Step Functions
             </li>
             <li>

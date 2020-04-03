@@ -14,3 +14,28 @@ main {
   height:100vh;
 }
 
+=======
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Roboto", sans-serif;
+  color: var(--blue);
+}
+
+.app {
+  display: flex;
+  margin: 0;
+  color: var(--darkBlue);
+  background-color: var(--white);
+}
+
+.pages {
+  flex: 1;
+  margin: 0;
+}
+
+.standout {
+  color: var(--orange);
+}

@@ -2,7 +2,7 @@ import React from "react";
 
 import "./about.css";
 
-function Nav() {
+function About() {
   return (
     <article className="about">
       <section className="img">
@@ -65,4 +65,4 @@ alt="pic"/>
     </article>
   );
 }
-export default Nav;
+export default About;

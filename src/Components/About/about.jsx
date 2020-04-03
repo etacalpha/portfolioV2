@@ -34,8 +34,8 @@ alt="pic"/>
           <h4><span className={'standout'}>Who</span> I am</h4>
           <p>
             I am a father of 3 and a husband. My life has been dedicated to the service of others,
-            first as a soldier, then as a Emergency Responder. I could not continue with the phyiscal 
-            demands of these professions due to injuries I recieved while serving in the army overseas. 
+            first as a soldier, then as a Emergency Responder. I could not continue with the physical 
+            demands of these professions due to injuries I received while serving in the army overseas. 
             I taught myself how to use linux, and attended a coding bootcamp to become more proficient 
             at development. Now I am developing (Saas) software using AWS (Dyanmo, Athena, Lambda, 
             StepFunctions, API Gateway ...) for the backend/infrastructure and React.js.

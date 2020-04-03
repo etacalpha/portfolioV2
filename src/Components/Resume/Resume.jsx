@@ -16,13 +16,13 @@ export default function Resume() {
           <ul>
             <li>
               Engineered and implemented entirely serverless data ingestion and
-              procrssing architectures, using microservice patterns implemented
-              with AWS services such as S# Events, Vloud Watch Events, SNS
+              processing architectures, using micro-service patterns implemented
+              with AWS services such as S# Events, Cloud Watch Events, SNS
               Lambda/Python, Dynamo, API Gateway, and Step Functions
             </li>
             <li>
               Implemented a well architected solution for performance at scale ,
-              using AWS services such as Cloud Fron, Route 53, S3, Athena, Glue,
+              using AWS services such as Cloud Front, Route 53, S3, Athena, Glue,
               Lambda/Python, and DynamoDb
             </li>
             <li>
@@ -49,7 +49,7 @@ export default function Resume() {
               S3, D3.js and Chart.js
             </li>
             <li>
-              Impemented a well architected solution for performance at scale
+              Implemented a well architected solution for performance at scale
               including from the continent of Africa, using AWS services such as
               Cloud Front, Route 53, S3 / Glacier, Athena, Glue, Lambda /Python
               and Dynamo
@@ -93,7 +93,7 @@ export default function Resume() {
               Lead 9-30 soldiers at a time while being responsible for every aspect of their lives.
             </li>
             <li>
-                Assited in the planning and execution of 300+ operations in combat
+                Assisted in the planning and execution of 300+ operations in combat
             </li>
             <li>
             Maintained 3,000,000 dollars worth of equipment

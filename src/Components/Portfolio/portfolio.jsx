@@ -10,15 +10,10 @@ class Projects extends React.Component {
       modalOpen: false,
       selectedWork: this.props.work[0]
     };
-
     this.openModal = this.openModal.bind(this);
     this.closeModal = this.closeModal.bind(this);
   }
-
-  componentDidMount() {
-    window.scrollTo(0, 0);
-}
-
+ 
   // Functions
   openModal(evt, work) {
     this.setState({
@@ -35,6 +30,11 @@ class Projects extends React.Component {
   }
 
   render() {
+    if (this.state.modalOpen) return <WorkModal 
+    work={this.state.selectedWork}
+    open={this.state.modalOpen}
+    closeModal={this.closeModal}
+  />
     return (
       <span className="portfolio">
         <section className="projects">
@@ -43,12 +43,7 @@ class Projects extends React.Component {
               <ExampleBubble work={work} key={idx} openModal={this.openModal} />
             );
           })}
-        </section >
-          <WorkModal 
-            work={this.state.selectedWork}
-            open={this.state.modalOpen}
-            closeModal={this.closeModal}
-          />
+        </section > 
       </span>
     );
   }

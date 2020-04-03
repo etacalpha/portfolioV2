@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { useForm } from "react-hook-form";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faSms } from "@fortawesome/free-solid-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { faLinkedinIn, faGithubAlt } from "@fortawesome/free-brands-svg-icons";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
@@ -106,24 +108,25 @@ export default function Contact() {
         <p>Amherst, OH</p>
       </section>
       <section>
+        <h4>Phone:</h4>
+       <FontAwesomeIcon icon={faSms} onClick={openModal} size="2x" className={'sms'}/>
+      </section>
+      <section>
         <h4>Email:</h4>
-        <p>etacalpha@gmail.com</p>
+        <a href="mailto:etacalpha@gmail.com"><FontAwesomeIcon icon={faEnvelope} size="2x" /></a>
       </section>
       <section>
         <h4>LinkedIn:</h4>
-        <a href="https://linkedin.com/in/steven-beard">
+        <a href="https://linkedin.com/in/steven-beard"  target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon icon={faLinkedinIn} size="2x" />
         </a>
       </section>
       <section>
         <h4>GitHub:</h4>
-        <a href="https://github.com/etacalpha">
-          <FontAwesomeIcon icon={faGithubAlt} size="2x" />
+        <a href="https://github.com/etacalpha"  target="_blank" rel="noopener noreferrer">
+          <FontAwesomeIcon icon={faGithubAlt} size="2x" className={'sms'}/>
         </a>
       </section>
-      <button onClick={openModal} className={"button"}>
-        Text me
-      </button>
       <ToastContainer />
     </article>
   );

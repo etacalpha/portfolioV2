@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #index {
   position: absolute;
   height: 100vh;
@@ -36,4 +37,41 @@
 #info p{
   margin: 10px;
   font-size: 1.05rem;
+=======
+@import url("https://fonts.googleapis.com/css?family=Gotu&display=swap");
+
+.index {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+  font-size: 2rem;
+  background-color: lightGrey;
+}
+
+.index > p {
+  margin: 0;
+}
+
+#firstName {
+  color: transparent;
+  text-align: center;
+  margin: 0;
+  font-family: "Gotu", sans-serif;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: var(--blue);
+  font-size: 20vh;
+  text-shadow: 2px 2px var(--blue), -5px 4px var(--darkBlue);
+}
+
+@media screen and (max-width: 660px) {
+  .index {
+    font-size: 1.5rem;
+  }
+  #firstName {
+    font-size: 11vh;
+  }
+>>>>>>> DEV
 }

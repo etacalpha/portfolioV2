@@ -14,9 +14,12 @@
 .contact a {
   text-decoration: none;
 }
+.sms{
+  color: var(--blue);
+  cursor: pointer;
+}
 
 .contact section {
-  /* flex: 1; */
   display: inline-flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -55,18 +58,15 @@ textarea {
   width: 20vw;
 }
 
-.buttonContainer{
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
 .notification{
   text-align: center !Important;
 }
 .button{
   margin: auto;
-  font-size: 1.25em;
-  border-radius: 15em;
+  background-color: unset;
+  border: unset;
+  font-size: 1rem;
+  cursor: pointer;
 }
 
 

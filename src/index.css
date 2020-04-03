@@ -5,4 +5,12 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+<<<<<<< HEAD
+=======
+
+  --white: #f4f6fa;
+  --darkBlue: #000839;
+  --orange: #d8680e;
+  --blue: #005082;
+>>>>>>> DEV
 }

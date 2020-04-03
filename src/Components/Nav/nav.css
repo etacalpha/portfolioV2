@@ -3,11 +3,18 @@
 .nav{
   background-color: var(--blue);
   text-align: center;
+<<<<<<< HEAD
   color: var(--orange);
   position: fixed;
   top: 0;  
   height: 100%;
   max-width: min-content;
+=======
+  width: min-content;
+  height: calc(100vh - 14px);
+  padding: 7px;
+  background-color: var(--darkBlue);
+>>>>>>> DEV
 }
 .title {
   font-family: "Great Vibes", cursive;
@@ -18,8 +25,13 @@
   margin: auto;
 }
 
+<<<<<<< HEAD
 .title a {
   color: var(--orange);
+=======
+#navbar a {
+  color: lightgray;
+>>>>>>> DEV
   text-decoration: none;
 }
 

@@ -35,9 +35,10 @@
 .project__wrapper {
   width: 10em;
   height: 10em;
-  margin: 1.5em;
-  border: 3px solid var(--orange);
+  margin: 2em;
+  border: 2px solid #DE7119;
   border-radius: 50%;
+  cursor: pointer;
 }
 
 .img_holder img {
@@ -59,9 +60,9 @@
   align-content: center;
   width: 80vw;
   height: 90vh;
-  top: -20%;
-  left: -5%;
-  border: 1px solid black;
+  top: 5%;
+  left: 10%;
+  border: 1px solid rgb(0, 0, 0);
 }
 
 .modal__closeButton {
@@ -75,8 +76,8 @@
 }
 
 .modal__text {
-  background-color: var(--blue);
-  color: #fff;
+  background-color: var(--darkBlue);
+  color:lightgray;
   font-size: 1.25rem;
   padding: 1em;
   width: 30%;
@@ -84,7 +85,8 @@
 }
 
 .modal__link {
-  color: var(--blue);
+  background-color: var(--blue);
+  color: var(--white);
   font-weight: 900;
   background-color: #fff;
   border-radius: 4px;
@@ -96,7 +98,7 @@
 .modal_img_holder {
   float: right;
   height: 100%;
-  width: 70%;
+  width: 100%;
   margin: 0;
 }
 .modal__image {

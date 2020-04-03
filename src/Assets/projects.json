@@ -109,11 +109,24 @@
     "code": "Proprietary",
     "image": {
       "description": "screenshot of project",
-      "src": "/images/prop.jpg"
+      "src": "/images/no-image.png"
     },
     "long_dsc": {
       "tech": "Proprietary",
       "dsc": "This is a Saas application that assits customers with pricing the sales of their software."
+    }
+  },
+  {
+    "title": "Valkyrie",
+    "type":"professional",
+    "code": "Proprietary",
+    "image": {
+      "description": "screenshot of project",
+      "src": "/images/no-image.png"
+    },
+    "long_dsc": {
+      "tech": "AWS - Athena, Glue, S3, Api Gateway, Lambda/Python, Cloudfront, Route53, IAM, Glacier, D3.js, Chart.js, Javascript, HTML, CSS",
+      "dsc": "This is a Saas application that tracks the supply chain, usage rates, delivery rates, through 150+ countries."
     }
   },
   {

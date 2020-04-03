@@ -6,9 +6,10 @@
   background-color: #fff;
 } 
 picture{
-  display: block;
-  height: 100%;
-  width: 33vw;
+  display: flex;
+  height:100%;
+  width:45vw;
+  background-color: #000;;
 }
 
 img {

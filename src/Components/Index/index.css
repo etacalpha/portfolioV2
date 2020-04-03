@@ -1,3 +1,4 @@
+
 #index {
   position: absolute;
   height: 100vh;
@@ -5,6 +6,7 @@
   z-index: -1;
   overflow: hidden;
 }
+
 
 /* #index img{
   width: 100%;
@@ -36,4 +38,16 @@
 #info p{
   margin: 10px;
   font-size: 1.05rem;
+@import url("https://fonts.googleapis.com/css?family=Gotu&display=swap");
+
+
+
+@media screen and (max-width: 660px) {
+  .index {
+    font-size: 1.5rem;
+  }
+  #firstName {
+    font-size: 11vh;
+  }
+
 }

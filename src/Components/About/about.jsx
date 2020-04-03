@@ -12,6 +12,29 @@ function Nav() {
             alt="of developer"
           ></img>
         </picture>
+
+      <picture>
+<img
+sizes="(max-width: 1400px) 100vw, 1400px"
+srcSet="
+./images/pc_vyu4oh_c_scale,w_200-min.jpg 200w,
+./images/pc_vyu4oh_c_scale,w_369-min.jpg 369w,
+./images/pc_vyu4oh_c_scale,w_500-min.jpg 500w,
+./images/pc_vyu4oh_c_scale,w_613-min.jpg 613w,
+./images/pc_vyu4oh_c_scale,w_711-min.jpg 711w,
+./images/pc_vyu4oh_c_scale,w_810-min.jpg 810w,
+./images/pc_vyu4oh_c_scale,w_894-min.jpg 894w,
+./images/pc_vyu4oh_c_scale,w_974-min.jpg 974w,
+./images/pc_vyu4oh_c_scale,w_1049-min.jpg 1049w,
+./images/pc_vyu4oh_c_scale,w_1133-min.jpg 1133w,
+./images/pc_vyu4oh_c_scale,w_1199-min.jpg 1199w,
+./images/pc_vyu4oh_c_scale,w_1269-min.jpg 1269w,
+./images/pc_vyu4oh_c_scale,w_1339-min.jpg 1339w,
+./images/pc_vyu4oh_c_scale,w_1399-min.jpg 1399w,
+./images/pc_vyu4oh_c_scale,w_1400-min.jpg 1400w"
+src="pc_vyu4oh_c_scale,w_1400-min.jpg"
+alt="pic"/>
+</picture>
       </section>
       <section className="info">
       <section>
